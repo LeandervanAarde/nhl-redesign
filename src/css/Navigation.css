@@ -1,0 +1,56 @@
+.navCon{
+    padding: 2%;
+    height: 90vh;
+    background-color: #373636;
+    margin-top: 5vh !important;
+    border-radius: 8px;
+   position: fixed;
+   box-shadow: 4px 1px 13px -1px rgba(31, 31, 31, 0.75);
+-webkit-box-shadow: 4px 1px 13px -1px rgba(31, 31, 31, 0.75);
+-moz-box-shadow: 4px 1px 13px -1px rgba(31, 31, 31, 0.75);
+}
+
+.logoCon{
+    height: 10vh;
+    background-image: url("../Assets/Logo.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#top-item{
+    margin-top: 7vh ;
+}
+
+.nav-Item{
+    height: 12vh;
+    margin-top: 7vh ;
+    text-align: center;
+    transition: all 0.3s;
+    background-size: 100% 200%; 
+    background-image: linear-gradient(to top, rgb(200 16 46) 50%, #373636 50%); 
+    color: #333;
+
+}
+
+.nav-Item:first-child{
+ color: white;
+
+}
+
+.nav-Item:hover{
+    background-position: 0 100% ; 
+    color: #fff; 
+    box-shadow: 12px 12px 21px 1px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 0px 12px 21px 1px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 12px 21px 1px rgba(0,0,0,0.56);
+    transform: scale(1.02);
+}
+
+.nav-text{
+    text-decoration: none;
+    text-align: center;
+}
+
+

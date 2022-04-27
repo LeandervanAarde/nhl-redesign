@@ -1,0 +1,62 @@
+.content-container{
+    padding: 2.7%;
+}
+
+.introduction{
+    height: 30vh;
+    background-color: #2b2b2b;
+    border-radius: 8px;
+    padding-left: 4%;
+    box-shadow: 5px 11px 12px -1px rgba(31,31,31,0.42);
+    -webkit-box-shadow: 5px 11px 12px -1px rgba(31,31,31,0.42);
+    -moz-box-shadow: 5px 11px 12px -1px rgba(31,31,31,0.42);
+}
+
+.intro-text{
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    font-size: 23pt;
+}
+
+.introP{
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 18px;
+
+}
+
+.appName{
+    font-family: 'Graduate', cursive;
+    color: rgb(173, 0, 0);
+    font-size: 40pt;
+}
+
+.puck-viewer{
+    height: 100%;
+    background-color: red;
+}
+
+model-viewer{
+    float: right;
+    margin-top: -28vh;
+    width: 30%;
+    height: 100%;
+}
+
+.card-container{
+    padding: 1%;
+    margin-top: 2vh;
+    margin-left: 0;
+    min-height: 40vh;
+    background-color: #373636;
+    box-shadow: 5px 11px 12px -1px rgba(31,31,31,0.42);
+    -webkit-box-shadow: 5px 11px 12px -1px rgba(31,31,31,0.42);
+    -moz-box-shadow: 5px 11px 12px -1px rgba(31,31,31,0.42);
+}
+
+.photo{
+    height: 90px;
+    background-color: red;
+    border-radius: 55px;
+    float: left;
+}
